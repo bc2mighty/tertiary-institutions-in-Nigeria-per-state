@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #e8e8e8;
+    padding-top: 50px;
+}
+
+form{
+    height: 500px;
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.container{
+    height: inherit;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container label{
+    height: 20px;
+    width: 95%;
+    color: #323746;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.container input,.container select{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.container input[type=text],.container input[type=email],.container input[type=password]{
+    padding-left: 20px;
+    font-size: 20px;
+    width: 93%;
+}
+
+.container input[type=submit]{
+    background: #323746;
+    color: #fff;
+    font-weight: bold;
+    font-size: 23px;
+    border: none;
+    box-shadow: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

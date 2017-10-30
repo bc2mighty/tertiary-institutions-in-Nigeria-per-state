@@ -6,7 +6,7 @@ $(document).ready(function(){
                 $options += "<option value='" + index + "'>" + index + "</option>";
             });
         });
-        $(".states").append($options);
+        $(".states").append($options + "");
     });
 
     var $states = $(".states");
